@@ -1,0 +1,127 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Title</title>
+  </head>
+  <body class="flex p-4 gap-4">
+    <div class="flex flex-col w-fit sm:border-r border-gray-300 pr-8">
+      <div class="flex gap-4">
+        <div class="flex flex-col items-center">
+          <div
+            class="w-10 h-10 rounded-full border border-sky-600 flex justify-center items-center text-white"
+          >
+            <div
+              class="w-8 h-8 rounded-full bg-sky-600 flex justify-center items-center text-white"
+            >
+              1
+            </div>
+          </div>
+          <div
+            class="flex-1 border-l border-black border-dashed w-0.5 h-full"
+          ></div>
+        </div>
+        <section class="grid place-items-center">
+          <label>
+            <input class="peer/showLabel absolute scale-0" type="checkbox" />
+            <span
+              class="block max-h-16 max-w-xs overflow-hidden py-0 text-sky-600 transition-all duration-300 peer-checked/showLabel:max-h-[500px]"
+            >
+              <div class="flex flex-col rounded bg-sky-100 px-4 py-2 h-fit">
+                <div class="font-bold">
+                  Đăn ký dự tuyển và thanh toán lệ phí
+                </div>
+                <div class="text-gray-400">Chưa mở</div>
+              </div>
+              <div class="my-2 flex sm:hidden flex-col text-black px-4">
+                <h2>THANH TOÁN LỆ PHÍ XÉT TUYỂN</h2>
+                <div>PHHS vui lòng đọc kĩ các thông tin....</div>
+                <div>PH có thể xem thêm thông tin....</div>
+                <div class="flex flex-col">
+                  <div
+                    class="flex flex-col border border-gray-300 rounded mt-4"
+                  >
+                    <div class="p-2">Người thanh toán</div>
+                    <div class="grid grid-cols-2 border-t border-gray-300 p-2">
+                      <div class="text-gray-400">Họ tên học sinh</div>
+                      <div class="font-bold text-right">Vũ Văn Nam</div>
+                      <div class="text-gray-400">Họ tên phụ huynh</div>
+                      <div class="font-bold text-right">Vũ Nam Anh</div>
+                      <div class="text-gray-400">SĐT</div>
+                      <div class="font-bold text-right">0987.654.321</div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col border border-gray-300 rounded mt-4"
+                  >
+                    <div class="p-2">Thông tin thanh toán</div>
+                    <div class="grid grid-cols-2 border-t border-gray-300 p-2">
+                      <div class="text-gray-400">Lệ phí xét tuyển</div>
+                      <div class="font-bold text-right text-green-300">
+                        1.000.000 VND
+                      </div>
+                      <div class="text-gray-400">Hình thức</div>
+                      <div class="font-bold text-right">Thanh toán Online</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </span>
+          </label>
+        </section>
+      </div>
+      <div class="flex gap-4 text-sky-600 mt-10">
+        <div class="flex flex-col items-center">
+          <div
+            class="w-10 h-10 rounded-full border border-sky-600 flex justify-center items-center text-white z-20 bg-white"
+          >
+            <div
+              class="w-8 h-8 rounded-full bg-sky-600 flex justify-center items-center text-white"
+            >
+              2
+            </div>
+          </div>
+          <div
+            class="border-l border-black border-dashed w-0.5 h-[104px] -mt-20 z-10"
+          ></div>
+        </div>
+        <div class="flex flex-col rounded bg-sky-100 px-4 py-2 h-fit">
+          <div class="font-bold">Đăn ký dự tuyển và thanh toán lệ phí</div>
+          <div class="text-gray-400">Chưa mở</div>
+        </div>
+      </div>
+    </div>
+    <div class="flex-1">
+      <div class="flex-1 my-2 hidden sm:flex flex-col text-black px-4">
+        <h2>THANH TOÁN LỆ PHÍ XÉT TUYỂN</h2>
+        <div>PHHS vui lòng đọc kĩ các thông tin....</div>
+        <div>PH có thể xem thêm thông tin....</div>
+        <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 mt-4">
+          <div class="flex-1 flex flex-col border border-gray-300 rounded">
+            <div class="p-2">Người thanh toán</div>
+            <div class="grid grid-cols-2 border-t border-gray-300 p-2">
+              <div class="text-gray-400">Họ tên học sinh</div>
+              <div class="font-bold text-right">Vũ Văn Nam</div>
+              <div class="text-gray-400">Họ tên phụ huynh</div>
+              <div class="font-bold text-right">Vũ Nam Anh</div>
+              <div class="text-gray-400">SĐT</div>
+              <div class="font-bold text-right">0987.654.321</div>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col border border-gray-300 rounded">
+            <div class="p-2">Thông tin thanh toán</div>
+            <div class="grid grid-cols-2 border-t border-gray-300 p-2">
+              <div class="text-gray-400">Lệ phí xét tuyển</div>
+              <div class="font-bold text-right text-green-300">
+                1.000.000 VND
+              </div>
+              <div class="text-gray-400">Hình thức</div>
+              <div class="font-bold text-right">Thanh toán Online</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
